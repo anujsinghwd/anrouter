@@ -38,3 +38,16 @@ A simple and small PHP Routing
     ```    
 - Above route called by `(http://your_base_url/method_name)`
 
+### Parameter Handling
+
+- Pass with request
+    ```jsx
+    $anrouter->get('method_name', array('agr1' => $val))
+    ```
+- Getting the Parameter in function
+    ```jsx
+    function method_name($param)
+    {
+        echo $param;
+    }
+   ``` 
