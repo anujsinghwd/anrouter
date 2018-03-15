@@ -21,17 +21,17 @@ A simple and small PHP Routing
 ### Example
 
 - `index.php`
-```
+```jsx
     <?php
     
     require_once './lib/AnRouter.php';
     
     $anrouter = new AnRouter();
 
-    $anrouter->get('method name'); -> For `GET` REQUEST
-    $anrouter->post('method name'); -> For `POST` REQUEST
-    $anrouter->put('method name'); -> For `PUT` REQUEST
-    $anrouter->delete('method name'); -> For `DELETE` REQUEST
+    $anrouter->get('method name'); -> For GET REQUEST
+    $anrouter->post('method name'); -> For POST REQUEST
+    $anrouter->put('method name'); -> For PUT REQUEST
+    $anrouter->delete('method name'); -> For DELETE REQUEST
 
     function method_name()
     {
