@@ -26,10 +26,10 @@ A simple and small PHP Routing
     
     $anrouter = new AnRouter();
 
-    $anrouter->get('method name'); -> For GET REQUEST
-    $anrouter->post('method name'); -> For POST REQUEST
-    $anrouter->put('method name'); -> For PUT REQUEST
-    $anrouter->delete('method name'); -> For DELETE REQUEST
+    $anrouter->get('method_name'); -> For GET REQUEST
+    $anrouter->post('method_name'); -> For POST REQUEST
+    $anrouter->put('method_name'); -> For PUT REQUEST
+    $anrouter->delete('method_name'); -> For DELETE REQUEST
 
     function method_name()
     {
