@@ -20,7 +20,7 @@ A simple and small PHP Routing
 
 ### Example
 
-- `index.php`
+- index.php File
     ```jsx 
     require_once './lib/AnRouter.php';
     
