@@ -21,9 +21,7 @@ A simple and small PHP Routing
 ### Example
 
 - `index.php`
-```jsx
-    <?php
-    
+```jsx 
     require_once './lib/AnRouter.php';
     
     $anrouter = new AnRouter();
