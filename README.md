@@ -21,7 +21,7 @@ A simple and small PHP Routing
 ### Example
 
 - `index.php`
-```jsx 
+    ```jsx 
     require_once './lib/AnRouter.php';
     
     $anrouter = new AnRouter();
@@ -35,7 +35,6 @@ A simple and small PHP Routing
     {
         echo "Method Called";
     }
-    
-```    
+    ```    
 - Above route called by `(http://your_base_url/method_name)`
 
