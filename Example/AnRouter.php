@@ -6,7 +6,8 @@
 class AnRouter 
 {
     private $url;
-
+    private $parameters;
+    
     public function __construct()
     {
         $base_url = $this->getCurrentUri();
@@ -36,32 +37,36 @@ class AnRouter
     /*
      * accept GET request
     */
-    public function get($r)
+    public function get($r, $param = NULL)
     {
+        $this->parameters = isset($param) ? $param : $_REQUEST;
         $this->methodCheck('GET', $r);
     }
 
     /*
      * accept POST request
     */
-    public function post($r)
+    public function post($r, $param = NULL)
     {
+        $this->parameters = isset($param) ? $param : $_REQUEST;
         $this->methodCheck('POST', $r);
     }
 
     /*
      * accept PUT request
     */
-    public function put($r)
+    public function put($r, $param = NULL)
     {
+        $this->parameters = isset($param) ? $param : $_REQUEST;
         $this->methodCheck('PUT', $r);
     }
 
     /*
      * accept DELETE request
     */
-    public function delete($r)
+    public function delete($r, $param = NULL)
     {
+        $this->parameters = isset($param) ? $param : $_REQUEST;
         $this->methodCheck('DELETE', $r);
     }
 
@@ -71,7 +76,7 @@ class AnRouter
         {
             if (function_exists($r)) 
             {
-                call_user_func_array($this->url, $_REQUEST);
+                call_user_func_array($this->url, $this->parameters);
             }
             else
             {
@@ -96,6 +101,4 @@ class AnRouter
             header('HTTP/1.0 404 Not Found');
         }
     }
-
-}  
-     
+}
