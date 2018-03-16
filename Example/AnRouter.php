@@ -39,8 +39,11 @@ class AnRouter
     */
     public function get($r, $param = NULL)
     {
-        $this->parameters = isset($param) ? $param : $_REQUEST;
-        $this->methodCheck('GET', $r);
+        if($this->url == $r)
+        {
+            $this->parameters = isset($param) ? $param : $_REQUEST;
+            $this->methodCheck('GET', $r);
+        }
     }
 
     /*
@@ -48,8 +51,11 @@ class AnRouter
     */
     public function post($r, $param = NULL)
     {
-        $this->parameters = isset($param) ? $param : $_REQUEST;
-        $this->methodCheck('POST', $r);
+        if($this->url == $r)
+        {
+            $this->parameters = isset($param) ? $param : $_REQUEST;
+            $this->methodCheck('POST', $r);
+        }
     }
 
     /*
@@ -57,8 +63,11 @@ class AnRouter
     */
     public function put($r, $param = NULL)
     {
-        $this->parameters = isset($param) ? $param : $_REQUEST;
-        $this->methodCheck('PUT', $r);
+        if($this->url == $r)
+        {
+            $this->parameters = isset($param) ? $param : $_REQUEST;
+            $this->methodCheck('PUT', $r);
+        }
     }
 
     /*
@@ -66,8 +75,11 @@ class AnRouter
     */
     public function delete($r, $param = NULL)
     {
-        $this->parameters = isset($param) ? $param : $_REQUEST;
-        $this->methodCheck('DELETE', $r);
+        if($this->url == $r)
+        {
+            $this->parameters = isset($param) ? $param : $_REQUEST;
+            $this->methodCheck('DELETE', $r);
+        }
     }
 
     public function route($r)
