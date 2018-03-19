@@ -1,0 +1,14 @@
+"repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "anujsinghwd/anrouter",
+            "version": "dev-master",
+            "source": {
+                "url": "git://github.com/anujsinghwd/anrouter.git",
+                "type": "git",
+                "reference": "master"
+            },
+        }
+    }
+],
