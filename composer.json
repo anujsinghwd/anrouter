@@ -5,7 +5,7 @@
             "name": "anujsinghwd/anrouter",
             "version": "dev-master",
             "source": {
-                "url": "git://github.com/anujsinghwd/anrouter.git",
+                "url": "https://github.com/anujsinghwd/anrouter.git",
                 "type": "git",
                 "reference": "master"
             },
