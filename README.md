@@ -5,6 +5,7 @@ A simple and small PHP Routing
 ### Installation
 
 - Download the repo file or simply copy and paste
+- `git clone https://github.com/anujsinghwd/anrouter.git`
 
 ### Usage
 
