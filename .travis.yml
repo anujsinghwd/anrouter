@@ -3,12 +3,3 @@
 # Tell Travis CI we're using PHP
 language: php
 
-# Build matrix options
-matrix:
-  include:
-    - php: 5.6
-      env: WP_TRAVISCI=travis:phpunit
-    - php: hhvm
-      env: WP_TRAVISCI=travis:phpunit
-  fast_finish: true
-
