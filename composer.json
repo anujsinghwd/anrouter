@@ -5,7 +5,7 @@
     "keywords": ["routing","method routing"],
     "homepage": "https://github.com/anujsinghwd/anrouter",
     "license": "MIT",
-    "version": "1.0"
+    "version": "1.0",
     "authors": [
         {
             "name": "Anuj Singh",
