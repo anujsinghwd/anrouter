@@ -2,6 +2,6 @@
     "name": "anujsinghwd/anrouter",
     "description": "a simple and small routing library",
     "type": "library",
-    "license": "Apache",
+    "license": "MIT",
     "require": {}
 }
