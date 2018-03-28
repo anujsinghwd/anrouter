@@ -3,7 +3,7 @@ A simple and small PHP Routing
 
 
 ### Installation
-- `jsxcomposer require anujsinghwd/anrouter`
+- ```composer require anujsinghwd/anrouter```
 - Download the repo file or simply copy and paste
 - `git clone https://github.com/anujsinghwd/anrouter.git`
 
