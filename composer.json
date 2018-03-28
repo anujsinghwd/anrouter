@@ -6,6 +6,11 @@
     "homepage": "https://github.com/anujsinghwd/anrouter",
     "license": "MIT",
     "version": "1.0",
+    "repositories": [
+                    {
+                        "type": "git",
+                        "url": "https://github.com/anujsinghwd/anrouter"
+                    },
     "authors": [
         {
             "name": "Anuj Singh",
