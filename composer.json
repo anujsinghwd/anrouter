@@ -1,16 +1,7 @@
 {
-    "repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "anujsinghwd/anrouter",
-            "version": "dev-master",
-            "source": {
-                "url": "https://github.com/anujsinghwd/anrouter.git",
-                "type": "git",
-                "reference": "master"
-            },
-        }
-    }
-]
+    "name": "anujsinghwd/anrouter",
+    "description": "a simple and small routing library",
+    "type": "library",
+    "license": "Apache",
+    "require": {}
 }
