@@ -1,7 +1,19 @@
 {
     "name": "anujsinghwd/anrouter",
-    "description": "a simple and small routing library",
     "type": "library",
+    "description": "A simple and small routing library",
+    "keywords": ["routing","method routing"],
+    "homepage": "https://github.com/anujsinghwd/anrouter",
     "license": "MIT",
-    "require": {}
+    "authors": [
+        {
+            "name": "Anuj Singh",
+            "email": "anuj_singh@outlook.in",
+            "homepage": "https://anujsinghwd.github.io/anrouter/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
 }
